@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Prosix</title>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="css/layout.css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/owl.carousel.min.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/animate.min.css" rel="stylesheet" />
+<link href="css/imagehover.min.css" rel="stylesheet" />
+<!--<link href="css/style.css" rel="stylesheet" />-->
+<link href="css/style.css" rel="stylesheet" />
+<style>
+#owl-product .owl-buttons .owl-prev{
+border:10px solid #f00;
+position:absolute;
+left:0;
+top:34%;
+}
+#owl-product .owl-buttons .owl-next{
+  position:absolute;border:10px solid #f00;
+  right:0;
+  top:34%;
+}
+</style>
+</head>
+<body>
+<div class="loader"></div>
+<section class="header_top">
+  <div class="container">
+    <div class="row top_bar">
+      <div class="col-sm-6 col-xs-12 left_link">
+        <ul>
+          <li><a title="phone" class="top-left"><i class="fa fa-phone"></i><span class="text_link">(0522) 4046708</span></a></li>
+          <li><a href="mailto:hr@prosixinfotech.com" title="email" class="top-left"><i class="fa fa-envelope"></i><span class="text_link">hr@prosixinfotech.com</span></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-xs-12 right_link">
+        <ul class="pull-right">
+          <li>
+            <form action="">
+              <input type="text" id="search" name="search" placeholder="Search"/>
+              <input type="submit" id="submit" name="submit" value=""  />
+            </form>
+          </li>
+        </ul>
+        <ul class="social-icon pull-right">
+          <li class="facebook"><a href="https://www.facebook.com/prosixinfotech" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/Prosixinfotech" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="you"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+          <li class="google"><a href="mailto:hr@prosixinfotech.com"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--row top_bar-->
+  </div>
+  <!--container-->
+</section>
+<!--header_top-->
+<nav class="navbar navbar-default prox-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#"><img src="images/prosix_logo.png" /></a> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="hvr-overline-from-left">About Us</a></li>
+        <li><a href="clientel.html" class="hvr-overline-from-left">Clientel</a></li>
+        <li><a href="career.html" class="hvr-overline-from-left">Careers</a></li>
+		<li><a href="services.html" class="hvr-overline-from-left">Services</a></li>
+        <li><a href="contact.html" class="hvr-overline-from-left">Contact Us</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+<!--carousel-->
+<div class="slider">
+  <div class="">
+    <div class="col-sm-12 padding-none">
+      <div class="carousel slide" data-ride="carousel" id="slideshow">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#slideshow" data-slide-to="0"></li>
+          <li data-target="#slideshow" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active item-1">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 img-con-wrap">
+                  <div class="image-content"> <img src="images/1_left.png" alt="banner1"  class="animation animated-item-1"/> </div>
+                </div>
+                <div class="col-sm-6 img-con-wrap">
+                  <div class="carousel-content"> <img src="images/1_right.png" alt="banner1"  class="animation animated-item-2"/>
+                   
+                  </div>
+                </div>
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end item-->
+          <div class="item item-2">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 col-xs-12 img-con-wrap">
+                  <div class="image-content"> <img src="images/2_left.png" alt="banner1"  class="animation animated-item-1"/> </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 img-con-wrap">
+                  <div class="carousel-content"> <img src="images/2_middle.png" alt="banner2"  class="animation animated-item-2"/> </div>
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                  <div class="carousel-content-2"> <img src="images/2_right.png" alt="banner3"  class="animation animated-item-3"/> </div>
+                </div>
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <a class="left control-carousel hidden-xs" data-slide="prev" href="#slideshow"> <i class="fa fa-angle-left"></i></a> <a class="right control-carousel hidden-xs" data-slide="next" href="#slideshow"> <i class="fa fa-angle-right"></i></a> </div>
+        <!--end carousel-inner-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--end carousel-->
+<div style="clear:both"></div>
+<section class="service" id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title st-center">
+          <h3>What we do</h3>
+          <!--<span>Avocent deditum long</span>	-->
+        </div>
+        <div class=" text-center line"><img src="images/line.png" alt="line" /></div>
+        <div class="row block-first">
+          <div class="col-md-3">
+            <div class="st-feature wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s">
+              <div class="st-feature-icon"><i class="fa fa-desktop"></i></div>
+              <strong class="st-feature-title">Customized Software/Web Services</strong>
+              <p class="featured-para"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="st-feature wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+              <div class="st-feature-icon"><i class="fa fa-handshake-o"></i></div>
+              <strong class="st-feature-title">Consultancy</strong>
+              <p class="featured-para"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="st-feature wow slideInRight" data-wow-duration="1s" data-wow-delay="1.50s">
+              <div class="st-feature-icon"><i class="fa fa-paper-plane"></i></div>
+              <strong class="st-feature-title">STQC Approved Software Test Lab</strong>
+              <p class="featured-para"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="st-feature wow slideInRight" data-wow-duration="1s" data-wow-delay="2s">
+              <div class="st-feature-icon"><i class="fa fa-users"></i></div>
+              <strong class="st-feature-title">Data Bank of Independent Directors</strong>
+              <p class="featured-para"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="product">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title text-center"> <a href="#" class="download wow shake">Download Brochure</a> </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</section>
+<section class="features">
+  <div class="container">
+    <div class="row block">
+      <div class="col-sm-12">
+        <div class="col-sm-6 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s"> <img src="images/feature.png" class="img-responsive" /> </div>
+        <div class="col-sm-6 wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+          <h2>Our Services</h2>
+          <p class="service-heading">E-governance</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+          <p class="service-heading">Finance</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+          <p class="service-heading">Government and MIS</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+          <a href="#" class="view">View More</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonial">
+  <!--slider -->
+  <div class="slider">
+    <div class="carousel slide" data-ride="carousel" id="slideshow2">
+      <!--<ol class="carousel-indicators">
+    <li class="active" data-target="#slideshow" data-slide-to="0"></li>
+    <li data-target="#slideshow2" data-slide-to="1"></li>
+    <li data-target="#slideshow2" data-slide-to="2"></li>
+    <li data-target="#slideshow2" data-slide-to="3"></li>
+    </ol>-->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="image-content text-center"> <img src="images/client2.jpg" alt="banner1"  class="animation animated-item-1" /> </div>
+              </div>
+              <div class="col-sm-8 col-sm-offset-2">
+                <div class="carousel-content text-center">
+                  <!--<h2 class="animation animated-item-2">Clean Water</h2>-->
+                  <p class="animation animated-item-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <p>Joseph Thompson</p>
+                </div>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </div>
+        <!--end item-->
+        <div class="item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="image-content text-center"> <img src="images/client2.jpg" alt="banner2" class="animation animated-item-1"/> </div>
+              </div>
+              <div class="col-sm-8 col-sm-offset-2">
+                <div class="carousel-content text-center">
+                  <!--<h2 class="animation animated-item-2">Clean Water</h2>-->
+                  <p class="animation animated-item-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+                  <p>Joseph Thompson</p>
+                </div>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </div>
+        <!--end item-->
+        <div class="item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="image-content text-center"> <img src="images/client2.jpg" alt="banner1" class="animation animated-item-1" /></div>
+              </div>
+              <div class="col-sm-8 col-sm-offset-2">
+                <div class="carousel-content text-center">
+                  <!-- <h2 class="animation animated-item-2">Clean Water</h2>-->
+                  <p class="animation animated-item-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+                  <p>Joseph Thompson</p>
+                </div>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </div>
+        <!--end item-->
+        <div class="item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="image-content text-center"> <img src="images/client2.jpg" alt="banner2" class="animation animated-item-1"/> </div>
+              </div>
+              <div class="col-sm-8 col-sm-offset-2">
+                <div class="carousel-content text-center">
+                  <!--<h2 class="animation animated-item-2">Clean Water</h2>-->
+                  <p class="animation animated-item-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+                  <p>Joseph Thompson</p>
+                </div>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </div>
+        <!--end item-->
+        <a class="left control-carousel hidden-xs" data-slide="prev" href="#slideshow2"> <i class="fa fa-angle-left"></i></a> <a class="right control-carousel hidden-xs" data-slide="next" href="#slideshow2"> <i class="fa fa-angle-right"></i></a> </div>
+      <!--end carousel-inner-->
+    </div>
+  </div>
+  <!--slider -->
+</section>
+<section class="portfolio-sec">
+  <div class="section-title text-center">
+    <h3>Portfolio</h3>
+    <span>Avocent deditum long</span> </div>
+  <div class="container">
+    <ul id="filters" class="">
+      <!--<li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
+      <li><span class="filter" data-filter=".app">Government</span></li>
+      <li><span class="filter" data-filter=".card">Tourism</span></li>
+      <li><span class="filter" data-filter=".icon">E-ticketing</span></li>-->
+	  <li><span class="filter active" data-filter=".gov, .tour, .eticket">All</span></li>
+      <li><span class="filter" data-filter=".gov">Government</span></li>
+      <li><span class="filter" data-filter=".tour">Tourism</span></li>
+      <li><span class="filter" data-filter=".eticket">E-ticketing</span></li>
+      <!--<li><span class="filter" data-filter=".logo">Logo</span></li>
+      <li><span class="filter" data-filter=".web">Web</span></li>-->
+    </ul>
+    <div class="clearfix"></div>
+    <div id="portfoliolist">
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/5.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Bird Document</a> <span class="text-category">fdfffs</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://www.mofpi.nic.in" class="text-title">www.mofpi.nic.in</a> <span class="text-category">Ministry of Food Processing</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/web/4.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Sonor's Design</a> <span class="text-category">Web design</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio tour" data-cat="tour">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/card/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://www.lucknowzoo.com/" class="text-title">http://www.lucknowzoo.com/</a> <span class="text-category">Lucknow Zoo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://www.upscidc.org/home.htm" class="text-title">http://www.upscidc.org/home.htm</a> <span class="text-category">upscidc
+			</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/4.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://upscstcom.in/index.html" class="text-title">http://upscstcom.in/index.html</a> <span class="text-category">SCST commission 
+			</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/5.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://hussainabadtrust.com/" class="text-title">http://hussainabadtrust.com/</a> <span class="text-category">Hussainabad and allied trust</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/6.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://www.cgewho.in" class="text-title">http://www.cgewho.in</a> <span class="text-category">CGEWHO</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/7.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://nise.res.in/" class="text-title">http://nise.res.in/</a> <span class="text-category">National Institute of Solar Energy</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/8.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://hil.gov.in/HomePage.aspx" class="text-title">http://hil.gov.in/HomePage.aspx</a> <span class="text-category">Hindustan 		              Insecticides Limited</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/9.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://dolcbec.gov.in/" class="text-title">http://dolcbec.gov.in/</a> <span class="text-category">Directorate of Logistics</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/10.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://ntpcnews.com/default.aspx" class="text-title">http://ntpcnews.com/default.aspx</a> <span class="text-category">NTPC Limited</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="portfolio tour" data-cat="tour">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/card/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="www.tajmahal.gov.in" class="text-title">www.tajmahal.gov.in</a> <span class="text-category">U.P. Tourism</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio tour" data-cat="tour">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/card/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="www.agrafort.gov.in" class="text-title">www.agrafort.gov.in</a> <span class="text-category">U.P.Tourism</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">KittyPic</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio gov" data-cat="gov">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/app/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a href="http://icdsupweb.org/hindi/" class="text-title">http://icdsupweb.org/hindi/</a> <span class="text-category">ICDS</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio card" data-cat="card">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/card/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">QR Quick Response</a> <span class="text-category">Business card</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/6.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Mobi Sock</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/7.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Village Community Church</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/icon/4.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Domino's Pizza</a> <span class="text-category">Icon</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/web/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Backend Admin</a> <span class="text-category">Web design</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/icon/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Instagram</a> <span class="text-category">Icon</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/web/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Student Guide</a> <span class="text-category">Web design</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/icon/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Scoccer</a> <span class="text-category">Icon</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/icon/5.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">3D Map</a> <span class="text-category">Icon</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/web/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Note</a> <span class="text-category">Web design</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Native Designers</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/4.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Bookworm</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/icon/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Sandwich</a> <span class="text-category">Icon</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio card" data-cat="card">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/card/3.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Reality</a> <span class="text-category">Business card</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper"> <img src="img/portfolios/logo/2.jpg" alt="" />
+          <div class="label">
+            <div class="label-text"> <a class="text-title">Speciallisterne</a> <span class="text-category">Logo</span> </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="product-sec">
+  <div class="section-title st-center">
+    <h3>Products</h3>
+  </div>
+  <div class=" text-center line"> <img src="images/line.png" alt="line"> </div>
+  <div class="container">
+    <div id="owl-product" class="owl-carousel owl-theme">
+      <div class="item"><img src="images/1.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/2.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/3.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/4.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/5.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/6.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/7.jpg" alt="example-image" class="img-responsive"></div>
+      <div class="item"><img src="images/8.jpg" alt="example-image" class="img-responsive"></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div id="rt-footer">
+    <div class="container">
+      <div class="col-sm-3">
+        <div class="rt-block ">
+          <div class="module-surround">
+            <div class="module-title">
+              <h2 class="title"><span>Contact Us</span></h2>
+              <div class="title-line"> <span></span></div>
+            </div>
+            <div class="module-content">
+              <div class="custom">
+                <div class="aboutus">
+                  <ul>
+                    <li><span class="address">27/18,Raja Ram Mohan Rai Marg,<br />
+                      &nbsp; &nbsp; &nbsp; &nbsp; Lucknow,(U.P.) India.</span></li>
+                    <li><span class="phone">0522-4046708</span></li>
+                    <li><span class="email">hr@prosixinfotech.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="rt-block hidden-phone">
+          <div class="module-surround">
+            <div class="module-title">
+              <h2 class="title"> <span>Useful Links</span> </h2>
+              <div class="title-line"> <span></span> </div>
+            </div>
+            <div class="module-content">
+              <div class="customhidden-phone">
+                <ul>
+                  <li><a href="index.htm">Home</a></li>
+                  <li><a href="about_us.htm#About">About Us</a></li>
+                  <li><a href="clientel.htm#Clientele">Clientele</a></li>
+                  <li><a href="consultancy.htm#Consultancy">Consultancy</a></li>
+                  <li><a href="product.htm#Product">Products</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="gallery-flickr gallery-flickr-182">&nbsp;</div>
+            <div class="clearfix"></div>
+            <!-- End Joomla Bamboo jFlickr -->
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="rt-block hidden-phone">
+          <div class="module-surround">
+            <div class="module-title">
+              <h2 class="title"> <span>Important Links</span></h2>
+              <div class="title-line"> <span></span></div>
+            </div>
+            <div class="module-content">
+              <div class="customhidden-phone">
+                <ul>
+                  <li><a href="customized_software.htm">Our Services</a></li>
+                  <li><a href="portfolio.htm#Portfolio">Web Portfolio</a></li>
+                  <li><a href="http://prosix.in/career.php">Career</a></li>
+                  <li><a href="#">Employee Login</a></li>
+                  <li><a href="contact_us.htm#Contact">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 rt-omega">
+        <div class="rt-block hidden-phone">
+          <div class="module-surround">
+            <div class="module-title">
+              <h2 class="title"><span>Other Links</span></h2>
+              <div class="title-line"> <span></span></div>
+            </div>
+            <div class="module-content">
+              <div class="customhidden-phone">
+                <ul>
+                  <li> <a href="http://webmail.prosixinfotech.com">Corprate Email</a> </li>
+                  <li><a href="sitemap.htm#Sitemap">SiteMap</a></li>
+                  <li><a href="terms.htm#Terms">Terms &amp; Condition</a></li>
+                  <li><a href="privacy.htm#Privacy">Privacy Policy</a></li>
+                  <li><a href="disclaimer.htm#Disclaimer">Disclaimer</a></li>
+                  <li><a href="help.htm">Help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--container-->
+    <div class="clear"></div>
+  </div>
+  <div id="rt-copyright">
+    <div class="container">
+      <div class="col-sm-8 rt-alpha">
+        <div class="clear"></div>
+        <div class="rt-block"> <a href="http://www.rockettheme.com/" title="rockettheme.com" id="rocket"></a> <span class="copyright" style="font-size:12px;">Copyright &copy; 2007 All Rights Reserved. Designed by : <a href="http://prosixinfotech.com/" target="_blank">Prosix Infotech Pvt. Ltd.</a> &nbsp; &nbsp; <b style="color:#fff;">Last Updated on 05/02/2016</b></span></div>
+      </div>
+      <div class="col-sm-4 rt-omega">
+        <div class="rt-block hidden-phone">
+          <div class="module-surround">
+            <div class="module-content">
+              <div class="customhidden-phone">
+                <div class="social clearfix">
+                  <ul>
+                    <li class="facebookli">
+                      <div class="facebook"><a href="https://www.facebook.com/prosixinfotech" target="_blank"><span></span></a></div>
+                    </li>
+                    <li class="twitterli">
+                      <div class="twitter"><a href="https://twitter.com/Prosixinfotech" target="_blank"><span></span></a></div>
+                    </li>
+                    <li class="googleli">
+                      <div class="google"><a href="mailto:hr@prosixinfotech.com"><span></span></a></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<!--<script type="text/javascript">
+		 
+	</script>-->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<!--<script type="text/javascript">
+		
+	$(document).ready(function(){
+						  
+
+	});
+	
+	
+	</script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+
+</body>
+</html>
